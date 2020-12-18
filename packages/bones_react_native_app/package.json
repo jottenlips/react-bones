@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-bones": "^0.0.4",
+    "react-bones": "*",
     "react-native": "0.63.4"
   },
   "devDependencies": {

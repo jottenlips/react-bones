@@ -23,6 +23,10 @@ import { Bones } from "react-bones/native";
 
 ```
 
+## Storybook Demo
+
+[Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
+
 ## Example
 
 Clone the repo and run `yarn run start` for a CRA example.
@@ -35,7 +39,3 @@ For now, cd packages/bones_react_native_app
 yarn
 yarn run ios
 ```
-
-## Storybook Demo
-
-[Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
