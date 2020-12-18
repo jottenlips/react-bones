@@ -23,6 +23,17 @@ import { Bones } from "react-bones/native";
 
 ```
 
-## example
+## Example
 
-## storybook
+Clone the repo and run `yarn run start` for a CRA example.
+
+Fully linked React-Native example is coming soon.
+
+For now, cd packages/bones_react_native_app
+
+```
+yarn
+yarn run ios
+```
+
+## Storybook Demo

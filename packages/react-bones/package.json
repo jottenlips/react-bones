@@ -26,6 +26,7 @@
     "url": "git+https://github.com/jottenlips/react-bones.git"
   },
   "scripts": {
+    "publish-storybook": "build-storybook -o ../../docs",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc",
     "storybook": "start-storybook -p 6006",
