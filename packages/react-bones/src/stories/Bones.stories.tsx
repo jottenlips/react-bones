@@ -39,6 +39,20 @@ export const BonesLayoutRounded: React.VFC<{}> = () => (
   </View>
 );
 
+export const BonesCustomColor: React.VFC<{}> = () => (
+  // Views or div if web
+  <View>
+    <Bones borderRadius={25} toColor={"#800080"} fromColor={"#eeeeee"} />
+  </View>
+);
+
+export const BonesCustomDuration: React.VFC<{}> = () => (
+  // Views or div if web
+  <View>
+    <Bones borderRadius={25} duration={400} />
+  </View>
+);
+
 export default {
   title: "Bones",
 };
