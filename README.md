@@ -39,3 +39,7 @@ For now, cd packages/bones_react_native_app
 yarn
 yarn run ios
 ```
+
+## Thanks
+
+Shoutout to everyone that works on [react-native-web](https://github.com/necolas/react-native-web) It is a great library!
