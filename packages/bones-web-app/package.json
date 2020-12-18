@@ -1,6 +1,6 @@
 {
   "name": "bones-web-app",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
