@@ -38,4 +38,4 @@ yarn run ios
 
 ## Storybook Demo
 
-[Demo](https://jottenlips.github.io/react-bones)
+[Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
