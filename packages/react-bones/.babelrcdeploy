@@ -1,0 +1,21 @@
+{
+  "presets": ["@babel/preset-typescript", "babel-preset-expo"],
+  "ignore": [
+    "**/*.spec.tsx",
+    "**/*.stories.tsx",
+    "**/jestGlobalMocks.ts",
+    "**/__tests__",
+    "**/stories",
+    "**/storybookConstants.ts"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "^react-native$": "react-native-web"
+        }
+      }
+    ]
+  ]
+}

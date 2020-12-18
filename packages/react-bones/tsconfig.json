@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "native",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmitOnError": false,
+    "rootDir": "src",
+    "baseUrl": "src"
+  },
+  "exclude": ["./src/stories", "./node_modules/", "../../node_modules"],
+  "include": ["./src"]
+}

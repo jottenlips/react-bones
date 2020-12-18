@@ -1,0 +1,64 @@
+{
+  "name": "react-bones",
+  "version": "0.0.5",
+  "description": "A cross platform skeleton library",
+  "keywords": [
+    "loading",
+    "skeleton",
+    "cross-platform",
+    "react-native",
+    "react"
+  ],
+  "author": "John Ottenlips <jottenlips@gmail.com>",
+  "homepage": "https://github.com/jottenlips/react-bones#readme",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "native": "native",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jottenlips/react-bones.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "start": "yarn run build",
+    "build": "tsc & yarn run babel --config-file ./.babelrcdeploy",
+    "babel": "babel src --out-dir lib --extensions '.ts,.tsx'"
+  },
+  "bugs": {
+    "url": "https://github.com/jottenlips/react-bones/issues"
+  },
+  "typescript": {
+    "reactDocgen": "none"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@storybook/react-native": "^5.3.23",
+    "@types/react": "16.14.2",
+    "@types/react-dom": "16.9.0",
+    "babel-loader": "8.1.0",
+    "babel-preset-expo": "^8.3.0"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "^0.63.4",
+    "react-native-web": "^0.14.9",
+    "react-spring": "^8.0.27"
+  }
+}
