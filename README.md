@@ -49,6 +49,8 @@ const Post = (props) =>
 [Homepage](https://react-bones.com/)
 [Demo](https://react-bones.com/storybook/?path=/docs/bones--bones-default)
 
+[Demo](https://react-bones.com)
+
 ## Example
 
 Clone the repo and run `yarn run web` for a CRA example.
