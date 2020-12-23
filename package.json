@@ -4,8 +4,8 @@
   "scripts": {
     "publish": "lerna run tsc && lerna publish",
     "pages": "lerna run pages && lerna run publish-storybook",
-    "start": "lerna bootstrap --no-hoist && lerna run start",
-    "start:web": "yarn start & cd ./packages/bones-web-app & yarn start",
+    "start": "lerna bootstrap --no-hoist",
+    "web": "yarn start & cd ./packages/bones-web-app & yarn start",
     "mobile": "lerna bootstrap & pushd ./packages/bones_react_native_app/ && npx react-native run-ios"
   },
   "devDependencies": {

@@ -23,15 +23,36 @@ import { Bones } from "react-bones/native";
 
 ```
 
+```javascript
+const Post = (props) =>
+  props.loading ? (
+    <View>
+      <Bones />
+      <View style={{ padding: 10 }} />
+      <Bones width={600} height={20} />
+      <View style={{ padding: 10 }} />
+      <Bones width={600} height={20} />
+      <View style={{ padding: 10 }} />
+      <Bones width={600} height={20} />
+      <View style={{ padding: 10 }} />
+    </View>
+  ) : (
+    <View>
+      <Image style={{ width: 50, height: 50 }} source={{ uri: props.image }} />
+      <Text>{props.text}</Text>
+    </View>
+  );
+```
+
 ## Storybook Demo
 
 [Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
 
 ## Example
 
-Clone the repo and run `yarn run start` for a CRA example.
+Clone the repo and run `yarn run web` for a CRA example.
 
-Fully linked React-Native example is coming soon.
+A fully linked React-Native example is coming soon.
 
 For now, cd packages/bones_react_native_app
 
@@ -39,3 +60,7 @@ For now, cd packages/bones_react_native_app
 yarn
 yarn run ios
 ```
+
+## Thanks
+
+Shoutout to everyone that works on [react-native-web](https://github.com/necolas/react-native-web) It is a great library!
