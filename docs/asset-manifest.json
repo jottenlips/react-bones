@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-bones/static/css/main.1df61ab0.chunk.css",
+    "main.js": "/react-bones/static/js/main.5bfb5020.chunk.js",
+    "main.js.map": "/react-bones/static/js/main.5bfb5020.chunk.js.map",
+    "runtime-main.js": "/react-bones/static/js/runtime-main.b1a61279.js",
+    "runtime-main.js.map": "/react-bones/static/js/runtime-main.b1a61279.js.map",
+    "static/js/2.2da1e8b9.chunk.js": "/react-bones/static/js/2.2da1e8b9.chunk.js",
+    "static/js/2.2da1e8b9.chunk.js.map": "/react-bones/static/js/2.2da1e8b9.chunk.js.map",
+    "static/js/3.e5713104.chunk.js": "/react-bones/static/js/3.e5713104.chunk.js",
+    "static/js/3.e5713104.chunk.js.map": "/react-bones/static/js/3.e5713104.chunk.js.map",
+    "index.html": "/react-bones/index.html",
+    "precache-manifest.87b0f61428bddd073edae9bc257432a1.js": "/react-bones/precache-manifest.87b0f61428bddd073edae9bc257432a1.js",
+    "service-worker.js": "/react-bones/service-worker.js",
+    "static/css/main.1df61ab0.chunk.css.map": "/react-bones/static/css/main.1df61ab0.chunk.css.map",
+    "static/js/2.2da1e8b9.chunk.js.LICENSE.txt": "/react-bones/static/js/2.2da1e8b9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-bones/static/media/logo.06e73328.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1a61279.js",
+    "static/js/2.2da1e8b9.chunk.js",
+    "static/css/main.1df61ab0.chunk.css",
+    "static/js/main.5bfb5020.chunk.js"
+  ]
+}
