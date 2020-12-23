@@ -28,7 +28,32 @@ function App() {
           {"💀 npm i react-bones 💀 "}
         </h4>
         <h5>{"Dead simple loading components for React and React-Native"}</h5>
-
+        <div
+          style={{
+            flexDirection: "row",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flex: 1,
+            paddingBottom: 24,
+          }}
+        >
+          <a
+            style={{ padding: 10 }}
+            href={"https://github.com/jottenlips/react-bones"}
+          >
+            GitHub
+          </a>
+          <a style={{ padding: 10 }} href={"/stroybook/"}>
+            Storybook Demo
+          </a>
+          <a
+            style={{ padding: 10 }}
+            href={"https://www.npmjs.com/package/react-bones"}
+          >
+            NPM
+          </a>
+        </div>
         <div
           style={{
             borderRadius: 6,
