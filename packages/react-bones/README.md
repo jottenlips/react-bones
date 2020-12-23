@@ -44,9 +44,11 @@ const Post = (props) =>
   );
 ```
 
-## Storybook Demo
+## Storybook Demo (Switching DNS to react-bones.com)
 
-[Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
+[Homepage](https://react-bones.com/)
+
+[Demo](https://react-bones.com/?path=/docs/bones--bones-default)
 
 ## Example
 
