@@ -2,6 +2,7 @@
   "name": "react-bones",
   "version": "1.0.3",
   "description": "A cross platform skeleton library",
+  "main": "main.js",
   "keywords": [
     "loading",
     "skeleton",
@@ -58,7 +59,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "^0.63.4",
+    "react-native": "0.63.4",
     "react-native-web": "^0.14.9",
     "react-spring": "^8.0.27"
   }

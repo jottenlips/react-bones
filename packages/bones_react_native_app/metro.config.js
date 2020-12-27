@@ -1,9 +1,29 @@
+// /**
+//  * Metro configuration for React Native
+//  * https://github.com/facebook/react-native
+//  *
+//  * @format
+//  */
+
+// module.exports = {
+//   transformer: {
+//     getTransformOptions: async () => ({
+//       transform: {
+//         experimentalImportSupport: false,
+//         inlineRequires: false,
+//       },
+//     }),
+//   },
+// };
 /**
  * Metro configuration for React Native
  * https://github.com/facebook/react-native
  *
  * @format
  */
+const path = require('path');
+
+const watchFolders = [path.resolve(__dirname + '/..')];
 
 module.exports = {
   transformer: {
@@ -14,34 +34,5 @@ module.exports = {
       },
     }),
   },
+  watchFolders,
 };
-
-// //packages/mobile/metro.config.js
-// /**
-//  * Metro configuration for React Native
-//  * https://github.com/facebook/react-native
-//  *
-//  * @format
-//  */
-// const path = require('path');
-// module.exports = {
-//   transformer: {
-//     getTransformOptions: async () => ({
-//       transform: {
-//         experimentalImportSupport: false,
-//         inlineRequires: false,
-//       },
-//     }),
-//   },
-//   resolver: {
-//     extraNodeModules: new Proxy(
-//       {},
-//       {
-//         get: (target, name) => {
-//           return path.join(__dirname, `node_modules/${name}`);
-//         },
-//       },
-//     ),
-//   },
-//   watchFolders: [path.resolve(__dirname, '../../packages/react-bones/native')],
-// };

@@ -6,9 +6,10 @@
     "pages": "lerna run publish-storybook",
     "start": "lerna bootstrap --no-hoist",
     "web": "yarn start & cd ./packages/bones-web-app & yarn start",
-    "mobile": "lerna bootstrap & pushd ./packages/bones_react_native_app/ && npx react-native run-ios"
+    "mobile": "lerna bootstrap & pushd ./packages/bones_react_native_app/ && npm run ios & npm run start"
   },
   "devDependencies": {
+    "react-native": "*",
     "@types/node": "^14.14.14",
     "babel-jest": "^24.9.0",
     "lerna": "^3.22.1",

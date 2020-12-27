@@ -58,7 +58,8 @@ const App: () => React$Node = () => {
               {'Dead simple loading components for React and React-Native'}
             </Text>
           </View>
-          <View style={{width: 300, padding: 24, backgroundColor: '#ffffff'}}>
+          <Bones />
+          {/* <View style={{width: 300, padding: 24, backgroundColor: '#ffffff'}}>
             <Bones borderRadius={25} />
             <View style={{padding: 10}} />
             <Bones width={'100%'} height={20} borderRadius={10} />
@@ -67,7 +68,7 @@ const App: () => React$Node = () => {
             <View style={{padding: 10}} />
             <Bones width={'100%'} height={20} borderRadius={10} />
             <View style={{padding: 10}} />
-          </View>
+          </View> */}
         </ScrollView>
       </SafeAreaView>
     </>

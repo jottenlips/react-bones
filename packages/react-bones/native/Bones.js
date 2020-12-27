@@ -69,9 +69,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Bones = void 0;
 var React = __importStar(require("react"));
 var react_native_1 = require("react-native");
-var react_spring_1 = require("react-spring");
+var native_1 = require("react-spring/native");
 var Bones = function (props) {
-    var spring = react_spring_1.useSpring({
+    var spring = native_1.useSpring({
         to: function (next) { return __awaiter(void 0, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -95,5 +95,5 @@ var Bones = function (props) {
         React.createElement(AnimatedView, { style: __assign(__assign({}, spring), { borderRadius: props.borderRadius, width: props.width || 50, height: props.height || 50 }) })));
 };
 exports.Bones = Bones;
-var AnimatedView = react_spring_1.animated(react_native_1.View);
+var AnimatedView = native_1.animated(react_native_1.View);
 //# sourceMappingURL=Bones.js.map
