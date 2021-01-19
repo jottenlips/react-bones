@@ -13,7 +13,8 @@
     "react": "16.13.1",
     "react-bones": "*",
     "react-native": "0.63.4",
-    "react-spring": "^8.0.27"
+    "react-spring": "8.0.27",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
