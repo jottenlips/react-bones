@@ -21,9 +21,21 @@
  *
  * @format
  */
-const path = require('path');
+// const path = require('path');
 
-const watchFolders = [path.resolve(__dirname + '/..')];
+// const watchFolders = [path.resolve(__dirname + '/..')];
+
+/**
+ * Metro configuration for React Native
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
+const path = require('path');
+const watchFolders = [
+  path.resolve(__dirname + '/..'), //Relative path to packages directory
+  path.resolve(__dirname + '/../../node_modules'), //Relative path to packages directory
+];
 
 module.exports = {
   transformer: {

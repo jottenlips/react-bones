@@ -6,7 +6,7 @@
     "pages": "lerna run publish-storybook",
     "start": "lerna bootstrap",
     "web": "yarn start & cd ./packages/bones-web-app & yarn start",
-    "mobile": "lerna bootstrap & pushd ./packages/bones_react_native_app/ && npm run start & pushd ./packages/bones_react_native_app/ && npm run ios"
+    "mobile": "lerna bootstrap --hoist && pushd ./packages/bones_react_native_app/ && npm run start & pushd ./packages/bones_react_native_app/ && npm run ios"
   },
   "devDependencies": {
     "react-native": "*",
