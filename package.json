@@ -6,7 +6,10 @@
     "pages": "lerna run publish-storybook",
     "start": "lerna bootstrap",
     "web": "yarn start & cd ./packages/bones-web-app & yarn start",
-    "mobile": "lerna bootstrap --hoist && pushd ./packages/bones_react_native_app/ && npm run start & pushd ./packages/bones_react_native_app/ && npm run ios"
+    "mobile": "lerna bootstrap && pushd ./packages/bones_react_native_app/ && yarn run ios & pushd ./packages/bones_react_native_app/ && yarn run start",
+    "clean": "rm -rf ./packages/*/node_modules",
+    "clean-locks": "rm -rf ./packages/*/yarn.lock",
+    "reset": "yarn clean && yarn clean-locks && yarn bootstrap"
   },
   "devDependencies": {
     "react-native": "*",
