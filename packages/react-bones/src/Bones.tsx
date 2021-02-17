@@ -1,7 +1,7 @@
 import * as React from "react";
 import { View } from "react-native";
 
-import { animated, useSpring } from "react-spring";
+import { animated, useSpring } from "react-spring/native";
 
 interface BonesProps {
   width?: number;

@@ -17,6 +17,7 @@ module.exports = {
     config.resolve.alias = {
       "react-native$": "react-native-web",
       "@storybook/react-native": "@storybook/react",
+      "react-spring/native$": "react-spring/web",
     };
     config.resolve.modules = [
       ...(config.resolve.modules || []),

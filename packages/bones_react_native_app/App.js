@@ -15,12 +15,12 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
+import 'react-spring/native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 import {Bones} from 'react-bones/native';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />

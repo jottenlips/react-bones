@@ -13,7 +13,8 @@
       "module-resolver",
       {
         "alias": {
-          "^react-native$": "react-native-web"
+          "^react-native$": "react-native-web",
+          "^react-spring/native$": "react-spring/web"
         }
       }
     ]
