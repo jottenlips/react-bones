@@ -46,9 +46,9 @@ const Post = (props) =>
 
 ## Storybook Demo
 
-[Homepage](https://react-bones.com/)
+[Homepage](https://jottenlips.github.io/react-bones/)
 
-[Demo](https://react-bones.com/?path=/docs/bones--bones-default)
+[Demo](https://jottenlips.github.io/react-bones/?path=/docs/bones--bones-default)
 
 ## Example
 
